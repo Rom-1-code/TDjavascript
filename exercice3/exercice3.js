@@ -1,13 +1,12 @@
 var a = 3;
 var b = 2;
 
-function Multiplie(x = 8) {
-    var calcul1 = a * x;
-    var calcul2 = b * x;
-
+function Multiplie(parametreX = 8) {
+    var resultat = parametreX * 3;
+    return resultat;
 }
 
 function Affiche() {
-    alert(calcul1);
-    alert(calcul2);
+    alert(Multiplie(6));
+    alert(Multiplie());
 }
