@@ -7,6 +7,6 @@ function Multiplie(parametreX = 8) {
 }
 
 function Affiche() {
-    alert(Multiplie(6));
-    alert(Multiplie());
+    alert(Multiplie(a));
+    alert(Multiplie(b));
 }

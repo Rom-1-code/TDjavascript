@@ -5,5 +5,5 @@ function PerimetreAir() {
     var ResultatAir = longueur * largeur;
 
     alert("Le périmètre du rectangle est de " + ResultatPerimetre + "cm");
-    alert("L'air du rectangle est de " + ResultatAir + "m²");
+    alert("L'air du rectangle est de " + ResultatAir + "cm²");
 }

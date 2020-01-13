@@ -1,4 +1,5 @@
-var tab = Array(-2, 1, 4);
+var tab = ['-2', '1', '4'];
+console.log(tab.length);
 
 function Additionne(X) {
     var addition = X + 2;
@@ -6,7 +7,6 @@ function Additionne(X) {
 }
 
 function Affiche() {
-    alert(console.log(tab.length));
-    var tabs = tab[0, 2];
+    alert(Additionne(6));
 
 }
