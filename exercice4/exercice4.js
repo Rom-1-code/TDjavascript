@@ -2,11 +2,12 @@ var tab = ['-2', '1', '4'];
 console.log(tab.length);
 
 function Additionne(X) {
-    var addition = X + 2;
-    return addition;
+
+    return X + 2;
 }
 
 function Affiche() {
-    alert(Additionne(6));
+    alert(Additionne(tab[0]));
+    alert(Additionne(tab[tab.length - 1]));
 
 }
